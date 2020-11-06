@@ -526,10 +526,13 @@ $phone-media: 767px;
   .header{
     flex-direction: column;
     padding: 0;
-    img{
-      width: 48px;
-      height: 29.14px;
-      margin: 10px 0;
+    a{
+      padding: 0 100%;
+      img{
+        width: 48px;
+        height: 29.14px;
+        margin: 10px 0;
+      }
     }
     .menu{
       flex-wrap: wrap;
