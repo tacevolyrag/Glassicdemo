@@ -616,14 +616,29 @@ $phone-media: 767px;
         transform: translate(-50%, -50%);
         img{
           margin: 0;
-          content: url('../images/index/icon/icon-diamond-white.svg');
         }
         h3{
           font-size: 28px;
           color: $white-color
         }
       }
+      .diamond-icon{
+        img{
+          content: url('../images/index/icon/icon-diamond-white.svg');
+        }
+      }
+      .sun-icon{
+        img{
+          content: url('../images/index/icon/icon-sun-white.svg');
+        }
+      }
+      .thunder-icon{
+        img{
+          content: url('../images/index/icon/icon-thunder-white.svg');
+        }
+      }
     }
+    
   }
   .jointDesign{
     height: 696px;
