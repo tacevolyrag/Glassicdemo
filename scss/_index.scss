@@ -526,10 +526,11 @@ $phone-media: 767px;
 
 @media screen and (max-width: $phone-media) {
   .header{
-    flex-direction: column;
+    display: block;
     padding: 0;
     a{
-      padding: 0 110px;
+      text-align: center;
+      display: block;
       img{
         width: 48px;
         height: 29.14px;
@@ -541,20 +542,12 @@ $phone-media: 767px;
       li{
         width: 49.9%;
         margin-left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         border-top: 1px solid $white-color;
         &:nth-child(odd){
           border-right: 1px solid $white-color;
         }
-        &:nth-child(3){
-          a{
-            padding: 8px 62px;
-          }
-        }
         a{
-          padding: 8px 53px;
+          padding: 8px 0px;
           font-weight: bold;
           &:hover{
             border-bottom: 0;
